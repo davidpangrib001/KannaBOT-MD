@@ -62,7 +62,7 @@ function start(file) {
   })
   let p = fork()
   p.on('message', data => {
-    console.log('L͟o͟g͟s͟\n▪ RECEIVED => UPTIME', data)
+    console.log('[RECEIVED]', data)
     switch (data) {
       case 'reset':
         p.process.kill()

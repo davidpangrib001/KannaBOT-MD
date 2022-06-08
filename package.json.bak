@@ -1,6 +1,6 @@
 {
-    "name": "One BOT",
-    "version": "0.956",
+    "name": "Kanna BOT",
+    "version": "2.10.18",
     "description": "RPG WhatsApp BOT",
     "main": "index.js",
     "type": "module",
